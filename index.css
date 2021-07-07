@@ -1,60 +1,129 @@
-body {
+@import url('https://fonts.googleapis.com/css2?family=Chelsea+Market&family=Sansita+Swashed:wght@800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Chelsea+Market&family=Roboto+Mono&family=Sansita+Swashed:wght@800&display=swap');
+
+* {
+    font-family: 'Roboto Mono', monospace;
+}
+
+html {
     font-size: 10px;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
+    margin: 20px;
 }
 
-img {
-    height: 200px;
-    width: 200px;
-}
-
-.temp1{
-    height: 300px;
-    width: 300px;
-    position: relative;
-    top:-200px;
-    left: 400px;
-    border-radius: 200px;
-    border: solid black 1px;
-}
-
-header {
-    display: inline-block;
-}
-
-h1 {
-    font-size: 3rem;
-    margin-left: 0;
-}
-
-h3 {
-    font-size: 1.5rem;
-}
-
-header, nav, p {
+body nav {
     text-align: center;
     
 }
 
-a {
-    margin: 2rem;
+ body nav a {
     font-size: 1.5rem;
+    text-decoration: none;
+    display: inline-block;
+    margin: 10%;
+    margin-top: 0;
+    padding: 5px 30px 5px 30px;
+    width: 10rem;
+    color: white;
+    border-radius: 2rem;
 }
 
-.info {
-    
-    font-size: 1.5rem;
+.firstNav {
+    background-color: #FF764E;
 }
 
-.temp {
+.firstNav:hover {
+    background-color: #FF664E;
+}
+
+.secondNav {
+    background-color: #5ED3EB;
+}
+
+.secondNav:hover {
+    background-color: #2ED3EB;
+}
+
+.thirdNav {
+    background-color: #FFCD69;
+}
+
+.thirdNav:hover {
+    background-color: #FFCD49;
+}
+
+.firstImage {
+    height: 300px;
+    border-radius: 400px;
+    position: relative;
+    margin: 20px;
+} 
+
+header {
+    text-align: center;
+    display:inline-block;
+    position: relative;
+ 
+}
+
+header h1 {
+    font-size: 6rem;
+    font-family: 'Chelsea Market', cursive;
+}
+
+header h3 {
+    font-size: 2rem;
+}
+
+.firstImage, header {
+    top: -100px;
+    left: 350px;
+}
+
+.info p {
+    text-align: center;
+    font-size: 2rem;
+    margin: 0rem 5rem 0rem 5rem;
+    padding: .5rem 1rem;
+    background-color: #DDB9A3;
+    color: white;
+}
+
+.middleImgs {
+    width: 15rem;
     display: block;
-    margin-left: auto;
-    margin-right: auto;
+    margin: 1rem auto;   
 }
 
-p {
-    border: solid black 1px;
-    margin: 0 50px;
+.info p.imgTxt {
+    font-size: 1.2rem;
+    background-color: transparent;
+    color: black;
+    width: 13%;
+    margin: 0 auto;
 }
+
+div {
+    background: url('assets/footer_img.jpg');
+    background-position: top;
+    background-repeat: no-repeat;
+    height: 200px;
+    background-size: 130% 240%
+}
+
+body nav.two{
+    font-size: 1.5rem;
+    text-decoration: none;
+    margin:10%;
+    margin-top: 5%;
+    margin-bottom: 0;
+    padding: 5px 10px 5px 10px;
+    color: white;
+    border-radius: 2rem;
+}
+
+footer {
+    background-color: #F9E7DC;
+}
+
+
+/*this is a test to see if I can fix my mistake*/
