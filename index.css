@@ -7,7 +7,8 @@
 
 html {
     font-size: 10px;
-    margin: 20px;
+    margin: 0px;
+    padding: 0;
 }
 
 body nav {
@@ -15,7 +16,7 @@ body nav {
     
 }
 
- body nav a {
+ a {
     font-size: 1.5rem;
     text-decoration: none;
     display: inline-block;
@@ -104,25 +105,23 @@ header h3 {
 
 div {
     background: url('assets/footer_img.jpg');
-    background-position: top;
     background-repeat: no-repeat;
-    height: 200px;
-    background-size: 130% 240%
+    background-position: top;
+    width: 100%;
+    height: 30vh;
+    object-fit: contain;
 }
 
-body nav.two{
-    font-size: 1.5rem;
-    text-decoration: none;
-    margin:10%;
-    margin-top: 5%;
-    margin-bottom: 0;
-    padding: 5px 10px 5px 10px;
-    color: white;
-    border-radius: 2rem;
-}
-
-footer {
+footer{
+    padding: 3rem;
+    height: 5rem;
+    border:black solid;
+    text-align: center;
     background-color: #F9E7DC;
+}
+
+nav.two {
+    height: 0;
 }
 
 
